@@ -1,5 +1,4 @@
-a = 34
-b = 23
-
-sum = a+b
-print(sum)
+a = int(input("Enter the first number : "))
+b = int(input("Enter the second number : "))
+sum = a + b
+print("Sum of",a,"and",b,"is",sum)
