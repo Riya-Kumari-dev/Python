@@ -1,0 +1,18 @@
+# tab
+str = "Riya\tGupta"
+print(str)
+# next line
+str2 = "Riya Gupta\nA very passionate student"
+print(str2)
+
+# concatenation => adding two strings
+s = "Aditi"
+finalString = str2+"\n"+s
+print(finalString)
+
+# length of string
+print(len(str))
+
+# indexing
+print(str[2]) # will print y
+# str[2] = a  # python doesnot support index modification

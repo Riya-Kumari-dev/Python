@@ -1,0 +1,5 @@
+str = "RiyaGupta"
+print(str[1:4]) # iya => [starting idx, last idx+1]
+
+print(str[:5]) # [0:5]
+print(str[3:]) # [3:len(str)]
