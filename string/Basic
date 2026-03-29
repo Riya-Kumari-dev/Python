@@ -16,3 +16,24 @@ print(len(str))
 # indexing
 print(str[2]) # will print y
 # str[2] = a  # python doesnot support index modification
+
+# endswith("word") => return true if string ends with "word"
+print(str.endswith("ta"))
+
+# str.captilaze => capitalizes the 1st character of the string
+s = "itya"
+s.capitalize()
+print(s) # it will be itya as while captilazing it is creating a new string
+s = s.capitalize()
+print(s)
+
+# str.replace(old, new) => replaces all occurence of old with new one
+str = str.replace("Gupta","Kumari") 
+print(str)
+
+# str.find(word) => returns the 1st index of the occurer
+print(str.find("at")) # if not present prints -1
+print(str.find("ya"))
+
+# str.count(word) => counts the occurence of word
+print(str.count("a"))
