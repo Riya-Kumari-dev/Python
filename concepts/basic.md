@@ -30,4 +30,4 @@
 - High level
 - Free and open source 
 - Platform independent
-- Dynamically typed
+- Dynamically typed ➡️ no need to declare the data type
