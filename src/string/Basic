@@ -37,3 +37,5 @@ print(str.find("ya"))
 
 # str.count(word) => counts the occurence of word
 print(str.count("a"))
+
+print(s*3) # will print s 3 times
