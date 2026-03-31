@@ -33,3 +33,18 @@ print("Variable :",isSafe," Data Type :",type(isSafe))
 
 val = None
 print("Variable :",val,"    Data Type :",type(val)) #<class 'NoneType'>
+
+
+# binary form
+# can be start with 0b / 0B 
+a = 0b1000 # only 1000 will convert to decimal
+b = 0B1000
+print(a,b) # printing will be in decimal only
+
+# 1.2 * 10^3 
+c = 1.2e3 # e is for 10^
+d = 1.2E3
+print(c)
+print(d) # both are same
+
+# e = 0b1.1e3 # invalid
