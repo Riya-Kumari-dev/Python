@@ -2,9 +2,5 @@ a = int(input("Enter the first number : "))
 b = int(input("Enter the second number : "))
 c = int(input("Enter the third number : "))
 
-if(a > b and a > c):
-    print(a,"is Greastest")
-elif(b>a) :
-    print(b,"is Greatest")
-else :
-    print(c,"is Greatest")
+d = a if(a>b and a>c) else (b if(b>c) else c)
+print(d,"is greatest")
