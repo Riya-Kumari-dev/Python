@@ -16,4 +16,5 @@ print(a is b)
 
 l1 = [2,7,"Eina",34.3]
 l2 = [2,7,"Eina",34.3]
-print(l1 is l2) # False => lists are mutable 
+print(l1 is l2) # False => lists are mutable
+print(l1 == l2) # True => it is checking the content
