@@ -1,10 +1,20 @@
+# slicing :
+# str[starting idx,last idx +1, steps]
+
 str = "RiyaGupta"
-print(str[1:4]) # iya => [starting idx, last idx+1]
+print(str[1:4]) # iya => [1:4:1] => by default step size = 1
 
 print(str[:5]) # [0:5]
 print(str[3:]) # [3:len(str)]
-print(str[:]) # [0:len(str)]
+print(str[:]) # [0:len(str)] # entire string
+print(str[3:1]) # by default forword => increasing index but here 3 2 1 is not increasing so it will print nothing
+print(str[1:100]) # no error it will print from 1 to last index
+print(str[3:3]) # again empty as [3:2] no string
+print(str[5:1:-1]) # -1 indicate backward direction => from idx 5 to 1+1 idx => 5 to 2 => uGay
 
 # we can also slice with negative index
 # the last one is -1 => ... -5 -4 -3 -2 -1
 print(str[-3:-1]) # pt => [___:last idx+1]
+print(str[-1:-5:-1]) # backward -1 to -5+1 => -1 to -4 => atpu
+print(str[-4:-2:-1]) # backward -4 to -2+1 => -4 to -1 => empty string
+print(str[::-1]) # will print entire string backward that is in reverse order
