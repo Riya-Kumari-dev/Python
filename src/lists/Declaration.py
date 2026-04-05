@@ -18,3 +18,8 @@ print(l3)
 l4 = eval(input("Enter a list : "))
 print(type(l4))
 print(l4)
+
+l4 = [0 for i in range(6)] # store 0 6 times in l4
+print(l4)
+l4 = [i for i in range(5)] # 0 1 2 3 4
+print(l4)
