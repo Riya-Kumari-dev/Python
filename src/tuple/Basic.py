@@ -40,4 +40,4 @@ print(d)
 # print(a)
 
 # slicing
-print(a[1:])
+print(a[1:]) # (2, 3)
