@@ -22,4 +22,4 @@ print(m)  # [1, 8, 64, 216]
 a  = [1,2,8,5]
 b = [10,23,54,65]
 m2 = list(map(lambda x,y : x+y, a,b))
-print(m2)
+print(m2) # [11, 25, 62, 70]
