@@ -1,0 +1,26 @@
+class Node :
+    def __init__(self,data) :
+        self.data = data
+        self.next = None
+
+print("Enter a list of values : ",end="")
+l = [int(ele) for ele in input().split()] # user input of a list
+
+# now make the linked list
+head = None
+temp = None
+for i in range(len(l)) :
+    t = Node(l[i])
+    if head is None :
+        head = t
+        temp = head
+    else :
+        temp.next = t
+        temp = t
+
+# display
+temp = head
+while temp is not None :
+    print(temp.data,end="-->")
+    temp = temp.next
+print("None")
