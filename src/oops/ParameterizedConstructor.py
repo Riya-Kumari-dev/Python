@@ -6,9 +6,9 @@ class Teacher :
         print("Name :",self.name)
         print("Age :",self.age)
 
-t = Teacher() # same as java if we add parameterized constructor and don't add default one it will throw error
-t.name = "Aditi Mishra"
-t.age = 25
-t.display()
+# t = Teacher() # same as java if we add parameterized constructor and don't add default one it will throw error
+# t.name = "Aditi Mishra"
+# t.age = 25
+# t.display()
 t2 = Teacher("Riya Gupta",24)
 t2.display()
