@@ -13,7 +13,7 @@ a = 5
 b = 2
 print((a>b) and (a>=b)) # True
 print("Riya" and 10) # "Riya" is true => 10
-print(0 and 3+4j) # 0 => false => 3+4j
+print(0 and 3+4j) # 0 => false => 0
 
 # or => return if anyone is true
 # first is false return second one
